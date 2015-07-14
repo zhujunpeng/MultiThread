@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入网址：" />
+    <EditText 
+        android:id="@+id/et_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://bcscdn.baidu.com/roottool/BaiduRoot_setup_3.5.09.exe"
+        android:singleLine="true"
+        android:hint="http://"/>
+    <EditText 
+        android:id="@+id/et_threadcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3"/>
+    <Button 
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+    
+    <LinearLayout 
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"></LinearLayout>
+
+</LinearLayout>
